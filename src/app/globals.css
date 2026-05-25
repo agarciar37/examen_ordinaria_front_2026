@@ -41,6 +41,7 @@ a {
   gap: 20px;
   background-color: white;
   padding: 15px;
+  cursor: pointer;
 }
 
 .character-card img {
@@ -56,6 +57,7 @@ a {
 
 .pagination button {
   padding: 10px;
+  cursor: pointer;
 }
 
 .active-page {
@@ -79,4 +81,8 @@ a {
 
 .subtitle {
   text-align: center;
+}
+
+button {
+  cursor: pointer;
 }
