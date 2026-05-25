@@ -85,7 +85,7 @@ export default function HomePage() {
         <h2>Cargando personajes...</h2>
       ) : !data ? (
         <p className="subtitle">
-          No existen resultados para estos filtros.
+          No existen resultados para los filtros elegidos.
         </p>
       ) : (
         <>

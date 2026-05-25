@@ -14,15 +14,7 @@ const statusOptions = ["", "Dead", "Alive", "unknown"];
 
 const genderOptions = ["", "Female", "Male", "Genderless", "unknown"];
 
-export default function Filters({
-  status,
-  gender,
-  nameInput,
-  setStatus,
-  setGender,
-  setNameInput,
-  onSearch,
-}: Props) {
+export default function Filters({status, gender, nameInput, setStatus, setGender, setNameInput, onSearch}: Props) {
   function getNextValue(options: string[], currentValue: string) {
     const currentIndex = options.indexOf(currentValue);
 
@@ -45,7 +37,7 @@ export default function Filters({
 
       <input
         type="text"
-        placeholder="Buscar por nombre..."
+        placeholder="Buscar personaje..."
         value={nameInput}
         onChange={(e) => setNameInput(e.target.value)}
         onKeyDown={(e) => {

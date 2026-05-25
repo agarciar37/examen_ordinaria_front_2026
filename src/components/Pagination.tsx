@@ -6,13 +6,7 @@ type Props = {
   setPage: (page: number) => void;
 };
 
-export default function Pagination({
-  page,
-  totalPages,
-  hasNext,
-  hasPrev,
-  setPage,
-}: Props) {
+export default function Pagination({page, totalPages, hasNext, hasPrev, setPage,}: Props) {
   const pages = [
     1,
     2,
